@@ -75,7 +75,7 @@ createApp({
       fetch(this.url, options)
         .then(function () {
           alert("Registro grabado!");
-          window.location.href = "./productos.html"; // Redirigir a la página de productos
+          window.location.href = "./conductores.html"; // Redirigir a la página de productos
         })
         .catch((err) => {
           console.error(err);

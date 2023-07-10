@@ -59,7 +59,7 @@ createApp({
       fetch(this.url, options)
         .then(function () {
           alert("Registro actualizado!");
-          window.location.href = "./productos.html";
+          window.location.href = "./conductores.html";
         })
         .catch((err) => {
           console.error(err);
